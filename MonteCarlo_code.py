@@ -38,8 +38,8 @@ class MonteCarlo:
         # if distance < radius of the circle the point falls inside the circle.
             if distance < self.radius:
                 inside_circle += 1
-                print("inside")
-                print(distance)
+                #print("inside")
+                #print(distance)
         return inside_circle
     
     def estimate_pi(self):
